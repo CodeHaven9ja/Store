@@ -1,0 +1,31 @@
+{
+  "name": "e-shopper",
+  "description": "Shopping",
+  "main": "index.js",
+  "authors": [
+    "Thompson Edolo <verygreenboi@live.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Cart"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-socket-io": "^0.7.0",
+    "angular-cloudinary": "^1.2.4",
+    "oclazyload": "^1.0.9",
+    "angular-timeago": "^0.4.4",
+    "bootstrap": "^3.3.7",
+    "angular-animate": "^1.6.1",
+    "angular-bootstrap": "^2.4.0",
+    "angular-ui-router": "^0.3.2"
+  }
+}
