@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "keywords": [
     "Cart"
@@ -14,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "bower": "^1.8.0",
     "connect-flash": "^0.1.1",
     "connect-redis": "^3.2.0",
     "cookie-parser": "^1.4.3",
