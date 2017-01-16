@@ -5,7 +5,8 @@
         .module('app', [
             'ui.router',
             'ui.bootstrap',
-            'ngAnimate'
+            'ngAnimate',
+            'rzModule'
         ])
         .config(config)
         .run(run);
